@@ -1,0 +1,5 @@
+out/
+bin/
+obj/
+.idea/
+SchemaValidation.sln.dotsettings.user
