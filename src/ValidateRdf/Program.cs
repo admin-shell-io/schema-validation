@@ -20,7 +20,7 @@ namespace ValidateJson
                 IGraph graph = new Graph();
                 TurtleParser ttlparser = new TurtleParser();
                 ttlparser.Load(graph, model.FullName);
-                Console.Error.WriteLine($"OK: {model.FullName}");
+                Console.WriteLine($"OK: {model.FullName}");
             }
             catch (RdfParseException parseEx)
             {
